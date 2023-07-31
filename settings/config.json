@@ -1,0 +1,30 @@
+{
+  "Dataloader_set":
+  {
+    "num_workers":1,
+    "pin_memory":true
+  },
+  "Optimizer_set":
+  {
+    "vnet":1e-5,
+    "embed_vent":1e-4,
+    "cosen":1e-4,
+    "transaction": 1e-2,
+    "metric_net": 1e-1
+  },
+  "Control_params":{
+    "1": {
+        "name":"num_meta",
+        "default_val": 10
+    },
+    "2": {
+        "name":"embedding_dim",
+        "default_val": 20
+    },
+     "3": {
+        "name":"net_hidden_num",
+        "default_val": 100
+    }
+  },
+  "Info_save_freq": 9
+}
