@@ -26,5 +26,18 @@ python3 ./experiment/train_cifar_ssl.py \
 			--corruption_prob ${corruption_prob}  
 ```
 
+### Cite
+
+```
+@InProceedings{Lu_2023_ICCV,
+    author    = {Lu, Yang and Zhang, Yiliang and Han, Bo and Cheung, Yiu-ming and Wang, Hanzi},
+    title     = {Label-Noise Learning with Intrinsically Long-Tailed Data},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {1369-1378}
+}
+```
+
 
 
